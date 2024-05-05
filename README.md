@@ -1,4 +1,4 @@
-This is the version 2.0 of Sir Pumkinstein's Asphodel Meadows. This has been uploaded with permission of @AidenGyory
+This is the version 2.0 of Sir Pumkinstein's Asphodel Meadows. This has been uploaded with permission of [@AidenGyory](https://github.com/AidenGyory)
 
 This version of the pack is compatible with Minecraft version 1.16. Any newer version of Minecraft breaks the world generation for the custom dimension. 
 

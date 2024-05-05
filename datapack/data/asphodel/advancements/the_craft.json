@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "Learning the Craft",
+            "color": "yellow"
+        },
+        "description": [{
+            "text": "Craft the ",
+            "color": "light_purple"
+        },
+        {
+            "text":"Compendium",
+            "color": "yellow",
+            "italic": true
+
+        },
+        {
+            "text": " using a regular ",
+            "color": "light_purple",
+            "italic": false
+        },
+        {
+        	"text": "crafting table.",
+            "color": "gold"
+        }],
+        "icon": {
+            "item": "minecraft:written_book",
+            "nbt": "{CustomModelData:113001}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "crafted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "crafted"
+        ]
+    ],
+    "parent": "asphodel:root"
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/chainmail_helmet",
+		"layer1": "misc/fleeting_symbol"
+	}
+}

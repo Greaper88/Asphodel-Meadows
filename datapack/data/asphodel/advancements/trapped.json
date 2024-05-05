@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "Trapped          ",
+            "color": "green"
+        },
+        "description": [{
+            "text": "Activate a Runestone by trapping ",
+            "color": "gold"
+        },
+        {
+            "text":"Unstable Essence ",
+            "color": "light_purple",
+            "italic": true
+
+        },
+        {
+            "text": "inside, using your ",
+            "color": "gold",
+            "italic": false
+        },
+        {
+        	"text": "Infernal Machine.",
+            "color": "red"
+        }],
+        "icon": {
+            "item": "minecraft:gold_ingot",
+            "nbt": "{CustomModelData:113002}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "crafted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "crafted"
+        ]
+    ],
+    "parent": "asphodel:empty_vessel"
+}

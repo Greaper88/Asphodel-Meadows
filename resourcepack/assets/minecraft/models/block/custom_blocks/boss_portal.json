@@ -1,0 +1,60 @@
+{
+	"__comment": "Designed by SirPumpkinstein with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"0": "misc/asphodel_portal",
+		"particle": "misc/asphodel_portal"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 6, 0, 0 ],
+			"to": [ 10, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 4, 16 ], "texture": "#0" },
+				"south": { "uv": [ 0, 0, 4, 16 ], "texture": "#0" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#0" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#0" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 6, 16, 0 ],
+			"to": [ 10, 32, 16 ],
+			"faces": {
+				"up": { "uv": [ 0, 0, 4, 16 ], "texture": "#0" },
+				"south": { "uv": [ 0, 0, 4, 16 ], "texture": "#0" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#0" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#0" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 6, 16, -16 ],
+			"to": [ 10, 32, 0 ],
+			"faces": {
+				"up": { "uv": [ 0, 0, 4, 16 ], "texture": "#0" },
+				"north": { "uv": [ 0, 0, 4, 16 ], "texture": "#0" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#0" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#0" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 6, 0, -16 ],
+			"to": [ 10, 16, 0 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 3.999, 16 ], "texture": "#0" },
+				"north": { "uv": [ 0, 0, 4, 16 ], "texture": "#0" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#0" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#0" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation":  [ 90, 90, 0 ],
+			"translation":  [ 0, -30, 0 ],
+			"scale":  [ 1.6, 1.6, 1.6 ]
+		}
+	}
+}

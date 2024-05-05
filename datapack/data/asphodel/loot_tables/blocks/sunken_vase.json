@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                    {
+                        "function": "minecraft:set_nbt",
+                        "tag": "{am_ItemID:166b,CustomModelData:113020,am_Place.Vase:2b,Fireworks:{}}"
+                    },
+                    {
+                        "function": "set_name",
+                        "name" : 
+                        {
+                            "text": "Sunken Vase",
+                            "color": "dark_aqua",
+                            "italic": false
+                        }
+                    },
+                    {
+                        "function": "minecraft:set_lore",
+                        "lore": [
+                            {
+                                "text":" "
+                            },
+                            {
+                                "text":"  ❂ Asphodel Meadows ❂  ",
+                                "color":"dark_gray",
+                                "italic":false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
+}

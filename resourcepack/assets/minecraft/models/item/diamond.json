@@ -1,0 +1,9 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/item/alchemic_diamond"}
+	]
+}

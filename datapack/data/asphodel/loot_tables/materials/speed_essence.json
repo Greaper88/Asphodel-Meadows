@@ -1,0 +1,60 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:experience_bottle",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:113002,am_ItemID:12b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name" : 
+                            {
+                                "text": "Fleeting Essence",
+                                "color": "light_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore" : 
+                            [
+                                {
+                                    "text":"[Item]",
+                                    "color":"yellow",
+                                    "italic":false
+                                },
+                                {
+                                    "text":" "
+                                },
+                                {
+                                    "text":"It feels Like a gust of wind",
+                                    "color":"gray",
+                                    "italic":false
+                                },
+                                {
+                                    "text":"that howls past your ears.",
+                                    "color":"gray",
+                                    "italic":false
+                                },
+                                {
+                                    "text":" "
+                                },
+                                {
+                                    "text":"  ❂ Asphodel Meadows ❂  ",
+                                    "color":"dark_gray",
+                                    "italic":false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+      {
+        "type": "alternatives",
+        "children": [
+          {
+            "type": "minecraft:loot_table",
+            "conditions": [
+              {
+                "condition": "match_tool",
+                "predicate": 
+                {
+                  "enchantments": [
+                    {
+                      "enchantment": "minecraft:silk_touch",
+                      "levels":
+                      {
+                        "min": 1
+                      }
+                    }]
+                }
+              },
+            {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:petrified_oak_slab",
+                  "properties": {
+                    "type": "double",
+                    "waterlogged": "false"
+                  }
+                }],
+            "name": "asphodel:blocks/activated_onyx_ore"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "conditions": [
+              {
+                "condition": "match_tool",
+                "predicate": 
+                {
+                  "enchantments": [
+                    {
+                      "enchantment": "minecraft:silk_touch",
+                      "levels":
+                      {
+                        "min": 1
+                      }
+                    }]
+                }
+              },
+            {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:petrified_oak_slab",
+                  "properties": {
+                    "type": "double",
+                    "waterlogged": "true"
+                  }
+                }],
+            "name": "asphodel:blocks/phoenix_onyx_ore"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "conditions": [
+              {
+                "condition": "match_tool",
+                "predicate": 
+                {
+                  "enchantments": [
+                    {
+                      "enchantment": "minecraft:silk_touch",
+                      "levels":
+                      {
+                        "min": 1
+                      }
+                    }]
+                }
+              },
+            {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:petrified_oak_slab",
+                  "properties": {
+                    "type": "top"
+                  }
+                }],
+            "name": "asphodel:blocks/sunken_onyx_ore"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "asphodel:materials/activated_onyx",
+            "conditions": [
+            {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:petrified_oak_slab",
+                  "properties": {
+                    "type": "double",
+                    "waterlogged": "false"
+                  }
+                }],
+            "functions": [
+              {
+                "function": "minecraft:apply_bonus",
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:ore_drops"
+              },
+              {
+                "function": "minecraft:explosion_decay"
+              }
+            ] 
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "asphodel:materials/phoenix_onyx",
+            "conditions": [
+            {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:petrified_oak_slab",
+                  "properties": {
+                    "type": "double",
+                    "waterlogged": "true"
+                  }
+                }],
+            "functions": [
+              {
+                "function": "minecraft:apply_bonus",
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:ore_drops"
+              },
+              {
+                "function": "minecraft:explosion_decay"
+              }
+            ] 
+          },
+          {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:petrified_oak_slab",
+                  "properties": {
+                    "type": "top"
+                  }
+                }
+              ],
+              "count": 1
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "asphodel:materials/sunken_onyx"
+        }
+        ]
+      }]
+    }]
+}
+

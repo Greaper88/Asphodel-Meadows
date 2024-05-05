@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                    {
+                        "function": "minecraft:set_nbt",
+                        "tag": "{CustomModelData:113007,am_Place.Onyx:3b,Fireworks:{}}"
+                    },
+                    {
+                        "function": "set_name",
+                        "name" : 
+                        {
+                            "text": "Sunken Onyx Ore",
+                            "color": "dark_aqua",
+                            "italic": false
+                        }
+                    },
+                    {
+                        "function": "minecraft:set_lore",
+                        "lore": [
+                            {
+                                "text":" "
+                            },
+                            {
+                                "text":"  ❂ Asphodel Meadows ❂  ",
+                                "color":"dark_gray",
+                                "italic":false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
+}

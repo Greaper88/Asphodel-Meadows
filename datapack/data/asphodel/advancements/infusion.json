@@ -1,0 +1,42 @@
+{
+    "display": {
+        "title": {
+            "text": "Essence Infusion          ",
+            "color": "green"
+        },
+        "description": [{
+            "text": "once you've collected enough active Runestones. you can use them to ",
+            "color": "gold"
+        },
+        {
+            "text":"Infuse ",
+            "color": "dark_aqua",
+            "italic": true
+
+        },
+        {
+            "text": "your armor to boost your Attributes.",
+            "color": "gold",
+            "italic": false
+        }],
+        "icon": {
+            "item": "minecraft:iron_chestplate",
+            "nbt": "{CustomModelData:113001}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "crafted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "crafted"
+        ]
+    ],
+    "parent": "asphodel:trapped"
+}

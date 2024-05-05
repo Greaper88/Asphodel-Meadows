@@ -1,0 +1,9 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/totem_of_undying"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/item/totem"}
+	]
+}

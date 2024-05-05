@@ -1,0 +1,10 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/barrier"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 113001}, "model": "item/misc/blank_space"},
+		{ "predicate": {"custom_model_data": 113002}, "model": "item/misc/crafter_gui"}
+	]
+}

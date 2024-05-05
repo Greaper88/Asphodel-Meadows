@@ -1,0 +1,42 @@
+{
+    "display": {
+        "title": {
+            "text": "The man of Steel.",
+            "color": "light_purple"
+        },
+        "description": [{
+            "text": "Collected and worn a full set of Runestone infused armor with the ",
+            "color": "gold"
+        },
+        {
+            "text":"TOUGH ",
+            "color": "blue",
+            "italic": true
+
+        },
+        {
+            "text": "Attribute buff.",
+            "color": "gold",
+            "italic": false
+        }],
+        "icon": {
+            "item": "minecraft:gold_ingot",
+            "nbt": "{CustomModelData:113005}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "crafted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "crafted"
+        ]
+    ],
+    "parent": "asphodel:infusion"
+}

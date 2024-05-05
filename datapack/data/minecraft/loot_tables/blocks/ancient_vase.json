@@ -1,0 +1,65 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1005,EntityTag:{DisabledSlots:4144959,Invisible:1b,Tags:[\"AM.PlaceVase\"]}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name" : 
+                            {
+                                "text": "Ancient Vase",
+                                "color": "light_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore" : 
+                            [
+                                {
+                                    "text":"[Item]",
+                                    "color":"yellow",
+                                    "italic":false
+                                },
+                                {
+                                    "text":" "
+                                },
+                                {
+                                    "text": "A beautiful decorative vase",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "made from Onyx. You can ",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "store things in here.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text":" "
+                                },
+                                {
+                                    "text":"  ❂ Asphodel Meadows ❂  ",
+                                    "color":"dark_gray",
+                                    "italic":false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

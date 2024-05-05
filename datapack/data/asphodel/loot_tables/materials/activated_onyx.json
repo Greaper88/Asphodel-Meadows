@@ -1,0 +1,60 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:charcoal",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:113001,am_ItemID:120b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name" : 
+                            {
+                                "text": "Activated Onyx",
+                                "color": "dark_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore" : 
+                            [
+                                {
+                                    "text":"[Item]",
+                                    "color":"yellow",
+                                    "italic":false
+                                },
+                                {
+                                    "text":" "
+                                },
+                                {
+                                    "text":"A powerful fragment, can be used",
+                                    "color":"gray",
+                                    "italic":false
+                                },
+                                {
+                                    "text":"as fuel of crafted into ingots",
+                                    "color":"gray",
+                                    "italic":false
+                                },
+                                {
+                                    "text":" "
+                                },
+                                {
+                                    "text":"  ❂ Asphodel Meadows ❂  ",
+                                    "color":"dark_gray",
+                                    "italic":false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                    {
+                        "function": "minecraft:set_nbt",
+                        "tag": "{am_Onyx:1b,CustomModelData:113010,am_Place.Onyx:6b,Fireworks:{}}"
+                    },
+                    {
+                        "function": "set_name",
+                        "name" : 
+                        {
+                            "text": "Phoenix Onyx Block",
+                            "color": "red",
+                            "italic": false
+                        }
+                    },
+                    {
+                        "function": "minecraft:set_lore",
+                        "lore": [
+                            {
+                                "text":" "
+                            },
+                            {
+                                "text":"  ❂ Asphodel Meadows ❂  ",
+                                "color":"dark_gray",
+                                "italic":false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
+}

@@ -1,0 +1,101 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:113006,am_ItemID:116b,HideFlags:2,am_Primed:0b,am_Charges:10b,am_MirrorX:0b,am_MirrorY:0b,am_MirrorZ:0b,am_Dimension:none}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name" : 
+                            {
+                                "text": "Magic Mirror",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore" : 
+                            [
+                                {
+                                    "text":"Artifact",
+                                    "color":"gray",
+                                    "italic":false
+                                },
+                                {
+                                    "text":" "
+                                },
+                                [{
+                                    "text":"Coordinates: [",
+                                    "color":"dark_aqua",
+                                    "italic":false
+                                },
+                                {
+                                    "text":"Not Primed",
+                                    "color":"dark_gray",
+                                    "italic":false
+                                },
+                                {
+                                    "text":"]",
+                                    "color":"dark_aqua",
+                                    "italic":false
+                                }],
+                                {
+                                    "text":" "
+                                },
+                                {
+                                    "text":"When in Mainhand:",
+                                    "color":"gray",
+                                    "italic":false
+                                },
+                                {
+                                    "text":"Press Sneak to Prime Coordinates.",
+                                    "color":"gold",
+                                    "italic":true
+                                },
+                                {
+                                    "text":"Right Click to Teleport",
+                                    "color":"gold",
+                                    "italic":true
+                                },
+                                {
+                                    "text":"to Primed Coordinates.",
+                                    "color":"gold",
+                                    "italic":true
+                                },
+                                {
+                                    "text":" "
+                                },
+                                [{
+                                    "text":"Charges Left: ",
+                                    "color":"white",
+                                    "italic":false
+                                },
+                                {
+                                    "text":"10",
+                                    "color":"light_purple",
+                                    "italic":false
+                                }],
+                                {
+                                    "text":" "
+                                },
+                                {
+                                    "text":"  ❂ Asphodel Meadows ❂  ",
+                                    "color":"dark_gray",
+                                    "italic":false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

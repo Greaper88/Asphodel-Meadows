@@ -1,0 +1,9 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/flint"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/item/rune_fragment"}
+	]
+}

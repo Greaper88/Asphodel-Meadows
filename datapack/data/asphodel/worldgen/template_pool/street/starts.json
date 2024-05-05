@@ -1,0 +1,151 @@
+{
+    "name": "asphodel:streets",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/corner_01",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/corner_02",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/corner_03",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/crossroad_01",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/crossroad_02",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/crossroad_03",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/crossroad_04",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/crossroad_05",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/crossroad_06",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/straight_01",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/straight_02",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/straight_03",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/straight_04",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/straight_05",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/straight_06",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:streets/turn_01",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      }
+
+    ]
+  }

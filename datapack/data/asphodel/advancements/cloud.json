@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "Up, up and away!",
+            "color": "green"
+        },
+        "description": [{
+            "text": "Craft a ",
+            "color": "gold"
+        },
+        {
+            "text":"Cloud in a Bottle ",
+            "color": "light_purple",
+            "italic": false
+
+        },
+        {
+            "text": "With your ",
+            "color": "gold",
+            "italic": false
+        },
+        {
+        	"text": "Infernal Machine.",
+            "color": "red"
+        }],
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:113001}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "crafted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "crafted"
+        ]
+    ],
+    "parent": "asphodel:feather" 
+}

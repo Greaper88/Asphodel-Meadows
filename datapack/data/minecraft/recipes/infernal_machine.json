@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "OBO",
+      "OCO",
+      "SSS"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:blaze_rod"
+      },
+      "O": {
+        "item": "minecraft:crying_obsidian"
+      },
+      "C": {
+        "item": "minecraft:crafting_table"
+      },
+      "S": {
+        "tag": "minecraft:stone_tool_materials"
+      }
+    },
+    "result": {
+      "item": "minecraft:chain_command_block"
+    }
+  }

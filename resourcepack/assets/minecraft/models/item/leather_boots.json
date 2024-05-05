@@ -1,0 +1,14 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/leather_boots",
+		"layer1": "item/leather_boots_overlay"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/gear/leather/radiant_boots"},
+		{ "predicate": {"custom_model_data": 113002}, "model": "item/asphodel/gear/leather/fleeting_boots"},
+		{ "predicate": {"custom_model_data": 113003}, "model": "item/asphodel/gear/leather/brutal_boots"},
+		{ "predicate": {"custom_model_data": 113004}, "model": "item/asphodel/gear/leather/tough_boots"},
+		{ "predicate": {"custom_model_data": 113005}, "model": "item/netherite_boots"}
+	]
+}

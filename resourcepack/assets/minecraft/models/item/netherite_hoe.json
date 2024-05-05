@@ -1,0 +1,11 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/netherite_hoe"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/tools/activated_hoe"},
+		{ "predicate": {"custom_model_data": 113002}, "model": "item/asphodel/tools/phoenix_hoe"},
+		{ "predicate": {"custom_model_data": 113003}, "model": "item/asphodel/tools/sunken_hoe"}
+	]
+}

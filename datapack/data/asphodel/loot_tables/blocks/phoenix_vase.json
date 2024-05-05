@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                    {
+                        "function": "minecraft:set_nbt",
+                        "tag": "{am_ItemID:167b,CustomModelData:113019,am_Place.Vase:3b,Fireworks:{}}"
+                    },
+                    {
+                        "function": "set_name",
+                        "name" : 
+                        {
+                            "text": "Phoenix Vase",
+                            "color": "dark_red",
+                            "italic": false
+                        }
+                    },
+                    {
+                        "function": "minecraft:set_lore",
+                        "lore": [
+                            {
+                                "text":" "
+                            },
+                            {
+                                "text":"  ❂ Asphodel Meadows ❂  ",
+                                "color":"dark_gray",
+                                "italic":false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
+}

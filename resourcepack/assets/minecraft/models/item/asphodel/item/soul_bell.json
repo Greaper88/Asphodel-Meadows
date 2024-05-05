@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/soul_bell",
+		"layer1": "misc/alchemic_glint"
+	}
+}

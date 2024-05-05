@@ -1,0 +1,132 @@
+{
+    "name": "asphodel:houses",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:houses/ruined_house_01",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:houses/ruined_house_02",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:houses/ruined_house_03",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:houses/ruined_house_04",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:houses/ruined_house_05",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:houses/ruined_house_06",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:houses/ruined_house_07",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:houses/ruined_house_08",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:houses/ruined_portal_01",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:houses/fort_01",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:houses/fort_02",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:houses/fort_03",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:houses/fort_04",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "asphodel:houses/fort_05",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      }
+    ]
+  }

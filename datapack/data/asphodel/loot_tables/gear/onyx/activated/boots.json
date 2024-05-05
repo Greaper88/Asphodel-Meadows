@@ -1,0 +1,105 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{am_ItemID:141b,CustomModelData:113005,HideFlags:62,display:{color:9051859},Enchantments:[{id:\"minecraft:thorns\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.max_health",
+                                    "amount" : 3,
+                                    "operation": "addition",
+                                    "slot": "feet",
+                                    "name": "MaxHealth"
+                                },
+                                {
+                                    "attribute": "generic.armor",
+                                    "amount" : 3,
+                                    "operation": "addition",
+                                    "slot": "feet",
+                                    "name": "Armor"
+                                },
+                                {
+                                    "attribute": "generic.armor_toughness",
+                                    "amount" : 2,
+                                    "operation": "addition",
+                                    "slot": "feet",
+                                    "name": "Toughness"
+                                },
+                                {
+                                    "attribute": "generic.attack_damage",
+                                    "amount" : 0.15,
+                                    "operation": "multiply_base",
+                                    "slot": "feet",
+                                    "name": "AttackDamage"
+                                },
+                                {
+                                    "attribute": "generic.movement_speed",
+                                    "amount" : 0.15,
+                                    "operation": "multiply_base",
+                                    "slot": "feet",
+                                    "name": "Speed"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_name",
+                            "name" : 
+                            {
+                                "text": "Activated Boots",
+                                "color": "dark_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore" : 
+                            [
+                                {
+                                    "text":" "
+                                },
+                                {
+                                    "text":"When on Feet:",
+                                    "color":"gray",
+                                    "italic":false
+                                },
+                                {
+                                    "text":"+3 Max Health    +15% Speed",
+                                    "color":"dark_purple",
+                                    "italic":false
+                                },
+                                {
+                                    "text":"+15% Damage     +3 Armor",
+                                    "color":"dark_purple",
+                                    "italic":false
+                                },
+                                {
+                                    "text":"+2 Armor Toughness",
+                                    "color":"dark_purple",
+                                    "italic":false
+                                },
+                                {
+                                    "text":" "
+                                },
+                                {
+                                    "text":"  ❂ Asphodel Meadows ❂  ",
+                                    "color":"dark_gray",
+                                    "italic":false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

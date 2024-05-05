@@ -1,0 +1,13 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/gold_ingot"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/item/runestone"},
+		{ "predicate": {"custom_model_data": 113002}, "model": "item/asphodel/item/radiant_runestone"},
+		{ "predicate": {"custom_model_data": 113003}, "model": "item/asphodel/item/fleeting_runestone"},
+		{ "predicate": {"custom_model_data": 113004}, "model": "item/asphodel/item/brutal_runestone"},
+		{ "predicate": {"custom_model_data": 113005}, "model": "item/asphodel/item/tough_runestone"}
+	]
+}

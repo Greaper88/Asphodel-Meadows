@@ -1,0 +1,80 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "asphodel:materials/activated_ingot",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "asphodel:materials/sunken_ingot",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "asphodel:materials/phoenix_ingot",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "asphodel:materials/activated_onyx",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "asphodel:materials/sunken_onyx",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "asphodel:materials/phoenix_onyx",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "asphodel:materials/inactive_runestone",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "asphodel:materials/rune_fragment",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lapis_lazuli",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_ingot",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:experience_bottle",
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  }

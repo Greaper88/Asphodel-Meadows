@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "The Altar of Darkness.",
+            "color": "green"
+        },
+        "description": {
+            "text": "Build the Altar of Darkness in Asphodel and see what you've released!",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "crafted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "crafted"
+        ]
+    ],
+    "parent": "asphodel:root" 
+}

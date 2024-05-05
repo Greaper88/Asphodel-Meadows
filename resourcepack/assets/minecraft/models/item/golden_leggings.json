@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/golden_leggings"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/gear/golden/radiant_leggings"},
+		{ "predicate": {"custom_model_data": 113002}, "model": "item/asphodel/gear/golden/fleeting_leggings"},
+		{ "predicate": {"custom_model_data": 113003}, "model": "item/asphodel/gear/golden/brutal_leggings"},
+		{ "predicate": {"custom_model_data": 113004}, "model": "item/asphodel/gear/golden/tough_leggings"}
+	]
+}

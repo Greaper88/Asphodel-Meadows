@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"textures": {
+		"0": "mobs/shroud",
+		"particle": "mobs/shroud"
+	},
+	"elements": [
+		{
+			"name": "steve_head",
+			"from": [4, 19, 4],
+			"to": [12, 27, 12],
+			"faces": {
+				"north": {"uv": [7.5, 1, 11.47969, 4.97969], "texture": "#0"},
+				"east": {"uv": [12, 1, 15.97969, 4.97969], "texture": "#0"},
+				"south": {"uv": [12, 1, 15.97969, 4.97969], "texture": "#0"},
+				"west": {"uv": [12, 1, 15.97969, 4.97969], "texture": "#0"},
+				"up": {"uv": [12, 1, 15.97969, 4.97969], "texture": "#0"},
+				"down": {"uv": [12, 1, 15.97969, 4.97969], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"scale": [1.75, 1.75, 1.75],
+			"translation": [0, -25, 0],
+			"rotation": [0, -1, 0]
+		}
+	}
+}

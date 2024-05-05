@@ -1,0 +1,32 @@
+# Display #
+title @s[scores={am.ChargeTimer=1..5}] actionbar ["",{"text":"[","color": "gold"},{"text":"","color":"dark_purple"},{"text":"❂❂❂❂❂❂❂❂❂❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+title @s[scores={am.ChargeTimer=6..10}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂","color":"dark_purple"},{"text":"❂❂❂❂❂❂❂❂❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+title @s[scores={am.ChargeTimer=11..15}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂","color":"dark_purple"},{"text":"❂❂❂❂❂❂❂❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+title @s[scores={am.ChargeTimer=16..20}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂","color":"dark_purple"},{"text":"❂❂❂❂❂❂❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+title @s[scores={am.ChargeTimer=21..25}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂","color":"dark_purple"},{"text":"❂❂❂❂❂❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+title @s[scores={am.ChargeTimer=26..30}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂","color":"dark_purple"},{"text":"❂❂❂❂❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+title @s[scores={am.ChargeTimer=31..33}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂","color":"dark_purple"},{"text":"❂❂❂❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+title @s[scores={am.ChargeTimer=34..35}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂","color":"light_purple"},{"text":"❂❂❂❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+
+title @s[scores={am.ChargeTimer=36..37}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂","color":"dark_purple"},{"text":"❂❂❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+title @s[scores={am.ChargeTimer=38..40}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂","color":"light_purple"},{"text":"❂❂❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+
+title @s[scores={am.ChargeTimer=41..42}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂","color":"dark_purple"},{"text":"❂❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+title @s[scores={am.ChargeTimer=43..45}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂","color":"light_purple"},{"text":"❂❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+
+title @s[scores={am.ChargeTimer=46}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂","color":"dark_purple"},{"text":"❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+title @s[scores={am.ChargeTimer=47}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂","color":"light_purple"},{"text":"❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+title @s[scores={am.ChargeTimer=48}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂","color":"dark_purple"},{"text":"❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+title @s[scores={am.ChargeTimer=49}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂","color":"light_purple"},{"text":"❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+title @s[scores={am.ChargeTimer=50}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂","color":"dark_purple"},{"text":"❂","color": "dark_gray"},{"text": "]","color": "gold"}]
+
+title @s[scores={am.ChargeTimer=51}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂❂","color":"dark_purple"},{"text":"]","color": "gold"}]
+title @s[scores={am.ChargeTimer=52}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂❂","color":"light_purple"},{"text":"]","color": "gold"}]
+title @s[scores={am.ChargeTimer=53}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂❂","color":"dark_purple"},{"text":"]","color": "gold"}]
+title @s[scores={am.ChargeTimer=54}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂❂","color":"light_purple"},{"text":"]","color": "gold"}]
+title @s[scores={am.ChargeTimer=55}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂❂","color":"dark_purple"},{"text":"]","color": "gold"}]
+title @s[scores={am.ChargeTimer=56}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂❂","color":"light_purple"},{"text":"]","color": "gold"}]
+title @s[scores={am.ChargeTimer=57}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂❂","color":"dark_purple"},{"text":"]","color": "gold"}]
+title @s[scores={am.ChargeTimer=58}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂❂","color":"light_purple"},{"text":"]","color": "gold"}]
+title @s[scores={am.ChargeTimer=59}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂❂","color":"dark_purple"},{"text":"]","color": "gold"}]
+title @s[scores={am.ChargeTimer=60}] actionbar ["",{"text":"[","color": "gold"},{"text":"❂❂❂❂❂❂❂❂❂❂","color":"light_purple"},{"text":"]","color": "gold"}]

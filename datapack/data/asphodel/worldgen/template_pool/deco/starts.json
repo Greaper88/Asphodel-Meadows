@@ -1,0 +1,42 @@
+{
+    "name": "asphodel:deco",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "asphodel:entities/vindicator",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "asphodel:entities/evoker",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "asphodel:entities/pillager",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "asphodel:entities/empty",
+          "processors": "asphodel:village_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      }
+    ]
+  }

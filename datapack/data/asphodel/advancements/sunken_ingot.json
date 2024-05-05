@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Sunken Ingot",
+            "color": "green"
+        },
+        "description": {
+            "text": "Craft an Sunken Ingot",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:charcoal",
+            "nbt": "{CustomModelData:113004}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "crafted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "crafted"
+        ]
+    ],
+    "parent": "asphodel:sunken_onyx" 
+}

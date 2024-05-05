@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                    {
+                        "function": "minecraft:set_nbt",
+                        "tag": "{CustomModelData:113001,am_Place.Machine:1b,Fireworks:{}}"
+                    },
+                    {
+                        "function": "set_name",
+                        "name" : 
+                        {
+                            "text": "Infernal Machine",
+                            "color": "dark_red",
+                            "italic": false
+                        }
+                    },
+                    {
+                        "function": "minecraft:set_lore",
+                        "lore": [
+                            {
+                                "text":" "
+                            },
+                            {
+                                "text":"  ❂ Asphodel Meadows ❂  ",
+                                "color":"dark_gray",
+                                "italic":false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
+}

@@ -1,0 +1,28 @@
+
+{
+	"asphodel.boss.theme": {
+		"sounds": [
+			"asphodel/boss_theme"
+		],
+		"subtitle": "Epic Boss Music Plays"
+	},
+	"block.trapped_chest.close": {
+    "sounds": [
+      "block/enchantment_table/enchant1"
+    ],
+    "subtitle": "Open Custom Crafter"
+  },
+  "block.trapped_chest.locked": {
+    "sounds": [
+      "block/wooden_door/close",
+      "block/wooden_door/open"
+    ],
+    "subtitle": "Custom Crafter Locked!"
+  },
+  "block.trapped_chest.open": {
+    "sounds": [
+      "block/enchantment_table/enchant1"
+    ],
+    "subtitle": "Open Custom Crafter"
+	}
+}

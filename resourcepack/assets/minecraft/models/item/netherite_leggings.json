@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/netherite_leggings"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/gear/netherite/radiant_leggings"},
+		{ "predicate": {"custom_model_data": 113002}, "model": "item/asphodel/gear/netherite/fleeting_leggings"},
+		{ "predicate": {"custom_model_data": 113003}, "model": "item/asphodel/gear/netherite/brutal_leggings"},
+		{ "predicate": {"custom_model_data": 113004}, "model": "item/asphodel/gear/netherite/tough_leggings"}
+	]
+}

@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Phoenix Wings",
+            "color": "green"
+        },
+        "description": {
+            "text": "Craft and wear a full set of Phoenix Armor to gain Aqua Wings.",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:leather_chestplate",
+            "nbt": "{CustomModelData:113005,display:{color:13835806}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "crafted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "crafted"
+        ]
+    ],
+    "parent": "asphodel:phoenix_tool" 
+}

@@ -1,0 +1,36 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:barrier",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{am_roll100:1b}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.follow_range",
+                                    "name": "RNG",
+                                    "operation": "addition",
+                                    "slot": "chest",
+                                    "amount": {
+                                        "max": 100,
+                                        "min": 1
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Congratulations Superman!",
+            "color": "green"
+        },
+        "description": {
+            "text": "You have completed ALL of the Advancements for Asphodel! I hope you enjoyed this Datapack!",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:firework_rocket",
+            "nbt": "{CustomModelData:113018}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "crafted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "crafted"
+        ]
+    ],
+    "parent": "asphodel:astral" 
+}

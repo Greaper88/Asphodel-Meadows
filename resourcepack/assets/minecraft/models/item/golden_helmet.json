@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/golden_helmet"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/gear/golden/radiant_helmet"},
+		{ "predicate": {"custom_model_data": 113002}, "model": "item/asphodel/gear/golden/fleeting_helmet"},
+		{ "predicate": {"custom_model_data": 113003}, "model": "item/asphodel/gear/golden/brutal_helmet"},
+		{ "predicate": {"custom_model_data": 113004}, "model": "item/asphodel/gear/golden/tough_helmet"}
+	]
+}

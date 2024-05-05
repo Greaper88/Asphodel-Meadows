@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/experience_bottle"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/item/radiant_essence"},
+		{ "predicate": {"custom_model_data": 113002}, "model": "item/asphodel/item/fleeting_essence"},
+		{ "predicate": {"custom_model_data": 113003}, "model": "item/asphodel/item/brutal_essence"},
+		{ "predicate": {"custom_model_data": 113004}, "model": "item/asphodel/item/tough_essence"}
+	]
+}

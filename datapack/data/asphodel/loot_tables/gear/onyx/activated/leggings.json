@@ -1,0 +1,105 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{am_ItemID:140b,CustomModelData:113005,HideFlags:62,display:{color:9051859},Enchantments:[{id:\"minecraft:thorns\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.max_health",
+                                    "amount" : 6,
+                                    "operation": "addition",
+                                    "slot": "legs",
+                                    "name": "MaxHealth"
+                                },
+                                {
+                                    "attribute": "generic.armor",
+                                    "amount" : 6,
+                                    "operation": "addition",
+                                    "slot": "legs",
+                                    "name": "Armor"
+                                },
+                                {
+                                    "attribute": "generic.armor_toughness",
+                                    "amount" : 2,
+                                    "operation": "addition",
+                                    "slot": "legs",
+                                    "name": "Toughness"
+                                },
+                                {
+                                    "attribute": "generic.attack_damage",
+                                    "amount" : 0.3,
+                                    "operation": "multiply_base",
+                                    "slot": "legs",
+                                    "name": "AttackDamage"
+                                },
+                                {
+                                    "attribute": "generic.movement_speed",
+                                    "amount" : 0.3,
+                                    "operation": "multiply_base",
+                                    "slot": "legs",
+                                    "name": "Speed"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_name",
+                            "name" : 
+                            {
+                                "text": "Activated Leggings",
+                                "color": "dark_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore" : 
+                            [
+                                {
+                                    "text":" "
+                                },
+                                {
+                                    "text":"When on Legs:",
+                                    "color":"gray",
+                                    "italic":false
+                                },
+                                {
+                                    "text":"+6 Max Health    +30% Speed",
+                                    "color":"dark_purple",
+                                    "italic":false
+                                },
+                                {
+                                    "text":"+30% Damage     +6 Armor",
+                                    "color":"dark_purple",
+                                    "italic":false
+                                },
+                                {
+                                    "text":"+2 Armor Toughness",
+                                    "color":"dark_purple",
+                                    "italic":false
+                                },
+                                {
+                                    "text":" "
+                                },
+                                {
+                                    "text":"  ❂ Asphodel Meadows ❂  ",
+                                    "color":"dark_gray",
+                                    "italic":false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

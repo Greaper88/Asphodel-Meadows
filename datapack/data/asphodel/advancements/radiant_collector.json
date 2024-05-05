@@ -1,0 +1,60 @@
+{
+    "display": {
+        "title": [{
+            "text": "The Collector: ",
+            "color": "dark_purple",
+            "bold": true
+        },
+        {
+            "text": "Radiant",
+            "color": "yellow"    
+        }    
+    ],
+        "description": [{
+            "text": "Collect ",
+            "color": "gold"
+        },
+        {
+            "text":"Radiant Essence ",
+            "color": "light_purple",
+            "italic": true
+
+        },
+        {
+            "text": "Dropped by: \n",
+            "color": "gold",
+            "italic": false
+        },
+        {
+            "text": "- Zombies\n- Husks\n- Drowned\n- Zombie Villagers\n- Shrouds",
+            "color": "red"
+        }],
+        "icon": {
+            "item": "minecraft:experience_bottle",
+            "nbt": "{CustomModelData:113001}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "healing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:experience_bottle",
+            "nbt": "{am_ItemID:11b}"
+          }
+        ]
+      }
+  }
+    },
+    "requirements": [
+        [
+            "healing"
+        ]
+    ],
+    "parent": "asphodel:harvester"
+}

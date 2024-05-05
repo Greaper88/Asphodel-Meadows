@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "Swimming Lessons",
+            "color": "green"
+        },
+        "description": [{
+            "text": "Craft ",
+            "color": "gold"
+        },
+        {
+            "text":"Kharon's Amulet ",
+            "color": "light_purple",
+            "italic": false
+
+        },
+        {
+            "text": "With your ",
+            "color": "gold",
+            "italic": false
+        },
+        {
+        	"text": "Infernal Machine.",
+            "color": "red"
+        }],
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:113005}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "crafted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "crafted"
+        ]
+    ],
+    "parent": "asphodel:cloud" 
+}

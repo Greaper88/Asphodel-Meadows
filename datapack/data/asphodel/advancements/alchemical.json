@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "Alchemical Improvements",
+            "color": "green"
+        },
+        "description": [{
+            "text": "Use ",
+            "color": "gold"
+        },
+        {
+            "text":"Alchemic Diamonds ",
+            "color": "light_purple",
+            "italic": true
+
+        },
+        {
+            "text": "to craft an ",
+            "color": "gold",
+            "italic": false
+        },
+        {
+        	"text": "Alchemic Pickaxe or Alchemic Sword.",
+            "color": "light_purple"
+        }],
+        "icon": {
+            "item": "minecraft:diamond_pickaxe",
+            "nbt": "{CustomModelData:113002}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "crafted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "crafted"
+        ]
+    ],
+    "parent": "asphodel:infernal_machine"
+}

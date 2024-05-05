@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "The Infernal Machine",
+            "color": "dark_red"
+        },
+        "description": [{
+            "text": "Craft an ",
+            "color": "light_purple"
+        },
+        {
+            "text":"Infernal Machine",
+            "color": "red",
+            "italic": true
+
+        },
+        {
+            "text": " using a ",
+            "color": "light_purple",
+            "italic": false
+        },
+        {
+        	"text": "crafting table.",
+            "color": "gold"
+        }],
+        "icon": {
+            "item": "minecraft:firework_rocket",
+            "nbt": "{CustomModelData:113001}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "crafted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "crafted"
+        ]
+    ],
+    "parent": "asphodel:root"
+}

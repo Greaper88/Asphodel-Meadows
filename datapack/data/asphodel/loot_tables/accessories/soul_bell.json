@@ -1,0 +1,74 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:113003,am_ItemID:114b,HideFlags:2}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name" : 
+                            {
+                                "text": "Soul Bell",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore" : 
+                            [
+                                {
+                                    "text":"Artifact",
+                                    "color":"gray",
+                                    "italic":false
+                                },
+                                {
+                                    "text":" "
+                                },
+                                {
+                                    "text":"When in Mainhand:",
+                                    "color":"gray",
+                                    "italic":false
+                                },
+                                [{
+                                    "text":"Press ",
+                                    "color":"gold",
+                                    "italic":false
+                                },
+                                {
+                                    "text":"SNEAK",
+                                    "color":"gold",
+                                    "italic":true
+                                },{
+                                    "text":" release trapped souls.",
+                                    "color":"gold",
+                                    "italic":false
+                                }],
+                                {
+                                    "text":"Provides strength and regen effects.",
+                                    "color":"gold",
+                                    "italic":false
+                                },
+                                {
+                                    "text":" "
+                                },
+                                {
+                                    "text":"  ❂ Asphodel Meadows ❂  ",
+                                    "color":"dark_gray",
+                                    "italic":false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

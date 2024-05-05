@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/netherite_leggings",
+		"layer1": "misc/brutal_symbol"
+	}
+}

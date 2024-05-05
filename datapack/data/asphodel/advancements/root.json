@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "Welcome to Asphodel Meadows",
+            "color": "light_purple"
+        },
+        "description": [{
+            "text": "Datapack loaded correctly! \n\n",
+            "color": "green"
+        },
+        {
+        	"text": "If your Resourcepack is loaded \ncorrectly, you should see a \nDiamond below:\n\n",
+            "color": "gold"
+        },
+    	{
+        	"text": "             \uE00C\n  ",
+            "color": "white"
+        }],
+        "icon": {
+            "item": "minecraft:firework_rocket",
+            "nbt": "{CustomModelData:113001}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/misc/advancements.png"
+    },
+    "criteria": {
+        "load": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "load"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "asphodel:infernal_machine",
+            "asphodel:compendium"
+        ]
+    }
+}

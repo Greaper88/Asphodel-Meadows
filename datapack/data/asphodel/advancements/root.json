@@ -1,45 +1,51 @@
 {
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Welcome to Asphodel Meadows",
-            "color": "light_purple"
+            "text": "The Infernal Machine",
+            "color": "red",
+            "bold": false
         },
-        "description": [{
-            "text": "Datapack loaded correctly! \n\n",
-            "color": "green"
-        },
-        {
-        	"text": "If your Resourcepack is loaded \ncorrectly, you should see a \nDiamond below:\n\n",
-            "color": "gold"
-        },
-    	{
-        	"text": "             \uE00C\n  ",
-            "color": "white"
-        }],
+        "description": [
+            {
+                "text": "Build an ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Infernal Crafter ",
+                "color": "red"
+            },
+            {
+                "text": "by following the ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Crafter's Paper ",
+                "color": "gray"
+            },
+            {
+                "text": "instructions.",
+                "color": "light_purple"
+            }
+        ],
         "icon": {
-            "item": "minecraft:firework_rocket",
-            "nbt": "{CustomModelData:113001}"
+            "item": "minecraft:armor_stand",
+            "nbt": "{CustomModelData:1003}"
         },
-        "frame": "challenge",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false,
-        "background": "minecraft:textures/misc/advancements.png"
+        "background": "minecraft:textures/block/back5.png"
     },
     "criteria": {
-        "load": {
-            "trigger": "minecraft:tick"
+        "Crafter": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": [
         [
-            "load"
+            "Crafter"
         ]
-    ],
-    "rewards": {
-        "recipes": [
-            "asphodel:infernal_machine",
-            "asphodel:compendium"
-        ]
-    }
+    ]
 }

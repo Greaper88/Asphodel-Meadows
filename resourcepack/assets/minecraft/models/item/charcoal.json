@@ -4,12 +4,7 @@
 		"layer0": "item/charcoal"
 	},
 	"overrides": [
-		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/item/activated_onyx"},
-		{ "predicate": {"custom_model_data": 113002}, "model": "item/asphodel/item/activated_ingot"},
-		{ "predicate": {"custom_model_data": 113003}, "model": "item/asphodel/item/sunken_onyx"},
-		{ "predicate": {"custom_model_data": 113004}, "model": "item/asphodel/item/sunken_ingot"},
-		{ "predicate": {"custom_model_data": 113005}, "model": "item/asphodel/item/pheonix_onyx"},
-		{ "predicate": {"custom_model_data": 113006}, "model": "item/asphodel/item/pheonix_ingot"}
-
+		{ "predicate": {"custom_model_data": 1001}, "model": "item/asphodel/activated_onyx"},
+		{ "predicate": {"custom_model_data": 1002}, "model": "item/asphodel/onyx_ingot"}
 	]
 }

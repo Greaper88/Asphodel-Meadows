@@ -1,0 +1,54 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Portal to Asphodel",
+            "color": "dark_purple"
+        },
+        "description": [
+            {
+                "text": "Follow ",
+                "color": "light_purple"
+            },
+            {
+                "text": "The Compendium ",
+                "color": "dark_aqua",
+                "italic": false
+            },
+            {
+                "text": "to open a ",
+                "color": "light_purple",
+                "italic": false
+            },
+            {
+                "text": "Portal to Asphodel",
+                "color": "gray",
+                "italic": true
+            },
+            {
+                "text": ".",
+                "color": "light_purple",
+                "italic": false
+            }
+        ],
+        "icon": {
+            "item": "minecraft:diamond_hoe",
+            "nbt": "{CustomModelData:1005}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Portal": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "Portal"
+        ]
+    ],
+    "parent": "asphodel:crafting/charge_it_up"
+}

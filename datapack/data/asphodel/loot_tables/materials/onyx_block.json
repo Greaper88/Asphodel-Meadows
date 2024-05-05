@@ -1,0 +1,58 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Block:2b,CustomModelData:1002,EntityTag:{Small:1,Invisible:1,Tags:[\"AM.Onyx_Block\"]}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Onyx Block",
+                                "color": "light_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "[Item]",
+                                    "color": "yellow",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "A beautiful decorative",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "block made from Onyx.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

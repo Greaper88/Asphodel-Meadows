@@ -1,12 +1,12 @@
 {
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "item/iron_boots"
+	"parent": "item/generated",
+    "textures": {
+        "layer0": "item/iron_boots"
 	},
 	"overrides": [
-		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/gear/iron/radiant_boots"},
-		{ "predicate": {"custom_model_data": 113002}, "model": "item/asphodel/gear/iron/fleeting_boots"},
-		{ "predicate": {"custom_model_data": 113003}, "model": "item/asphodel/gear/iron/brutal_boots"},
-		{ "predicate": {"custom_model_data": 113004}, "model": "item/asphodel/gear/iron/tough_boots"}
+		{ "predicate": {"custom_model_data": 1001}, "model": "item/asphodel/iron_boots_healing"},
+		{ "predicate": {"custom_model_data": 1002}, "model": "item/asphodel/iron_boots_damage"},
+		{ "predicate": {"custom_model_data": 1003}, "model": "item/asphodel/iron_boots_speed"},
+		{ "predicate": {"custom_model_data": 1004}, "model": "item/asphodel/iron_boots_resist"}
 	]
 }

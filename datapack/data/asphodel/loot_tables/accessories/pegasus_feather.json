@@ -9,12 +9,11 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:113002,am_ItemID:113b,HideFlags:2}"
+                            "tag": "{Unbreakable:1,HideFlags:4,CustomModelData:1002,Feather:1b,Enchantments:[{}]}"
                         },
                         {
                             "function": "set_name",
-                            "name" : 
-                            {
+                            "name": {
                                 "text": "Pegasus Feather",
                                 "color": "yellow",
                                 "italic": false
@@ -22,38 +21,50 @@
                         },
                         {
                             "function": "set_lore",
-                            "lore" : 
-                            [
+                            "lore": [
                                 {
-                                    "text":"Artifact",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": "[Accessory]",
+                                    "color": "dark_green",
+                                    "italic": false
                                 },
                                 {
-                                    "text":" "
+                                    "text": " "
                                 },
                                 {
-                                    "text":"When in Offhand:",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": "This angelic feather is perfect,",
+                                    "color": "light_purple",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"Passive Slow fallng",
-                                    "color":"gold",
-                                    "italic":false
+                                    "text": "frail and almost weightless.",
+                                    "color": "light_purple",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"effect is activated",
-                                    "color":"gold",
-                                    "italic":false
+                                    "text": " "
                                 },
                                 {
-                                    "text":" "
+                                    "text": "When in Mainhand:",
+                                    "color": "gray",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"  ❂ Asphodel Meadows ❂  ",
-                                    "color":"dark_gray",
-                                    "italic":false
+                                    "text": "This item will slow your",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "fall and minimise fall damage.",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
                                 }
                             ]
                         }

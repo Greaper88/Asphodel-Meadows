@@ -9,55 +9,67 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:113001,am_ItemID:112b,HideFlags:2}"
+                            "tag": "{CustomModelData:1001,Unbreakable:1,HideFlags:4,Cloud:1b,Enchantments:[{}]}"
                         },
                         {
                             "function": "set_name",
-                            "name" : 
-                            {
-                                "text": "Cloud in a Bottle",
+                            "name": {
+                                "text": "Cloud in a bottle",
                                 "color": "yellow",
                                 "italic": false
                             }
                         },
                         {
                             "function": "set_lore",
-                            "lore" : 
-                            [
+                            "lore": [
                                 {
-                                    "text":"Artifact",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": "[Rare Accessory]",
+                                    "color": "aqua",
+                                    "italic": false
                                 },
                                 {
-                                    "text":" "
+                                    "text": " "
                                 },
                                 {
-                                    "text":"When on Hotbar:",
-                                    "color":"gray",
-                                    "italic":false
-                                },
-                                [{
-                                    "text":"Press ",
-                                    "color":"gold",
-                                    "italic":false
+                                    "text": "A gentle cloud to boost",
+                                    "color": "light_purple",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"SNEAK",
-                                    "color":"gold",
-                                    "italic":true
-                                },{
-                                    "text":" to double jump.",
-                                    "color":"gold",
-                                    "italic":false
-                                }],
-                                {
-                                    "text":" "
+                                    "text": "you up to new heights.",
+                                    "color": "light_purple",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"  ❂ Asphodel Meadows ❂  ",
-                                    "color":"dark_gray",
-                                    "italic":false
+                                    "text": " "
+                                },
+                                {
+                                    "text": "When on Hotbar:",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Press \"Sneak\" while in the",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "air, a small cloud will",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "propell you upwards.",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
                                 }
                             ]
                         }

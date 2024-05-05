@@ -1,0 +1,74 @@
+{
+    "display": {
+        "title": {
+            "text": "Learning the Craft",
+            "color": "gold"
+        },
+        "description": [
+            {
+                "text": "Place ",
+                "color": "light_purple"
+            },
+            {
+                "text": "3 ",
+                "color": "gold"
+            },
+            {
+                "text": "Crafter's Paper ",
+                "color": "gray"
+            },
+            {
+                "text": "across the middle of the ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Infernal Machine ",
+                "color": "red"
+            },
+            {
+                "text": "to craft ",
+                "color": "light_purple"
+            },
+            {
+                "text": "The Compendium",
+                "color": "dark_aqua"
+            },
+            {
+                "text": ".",
+                "color": "light_purple"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:written_book",
+            "nbt": "{CustomModelData:1001}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Crafter": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Compendium:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:written_book"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Crafter"
+        ]
+    ],
+    "parent": "asphodel:root"
+}

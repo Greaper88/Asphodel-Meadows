@@ -1,0 +1,119 @@
+{
+    "display": {
+        "title": {
+            "text": "The Collector",
+            "color": "green"
+        },
+        "description": [
+            {
+                "text": "Collect all ",
+                "color": "light_purple"
+            },
+            {
+                "text": "4 ",
+                "color": "gold"
+            },
+            {
+                "text": "types of ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Unstable Essence",
+                "color": "aqua"
+            },
+            {
+                "text": ".",
+                "color": "light_purple"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:experience_bottle",
+            "nbt": "{CustomModelData:1003}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Heal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Healing:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:experience_bottle"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Damage": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Damage:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:experience_bottle"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Speed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Speed:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:experience_bottle"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Resist": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Resist:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:experience_bottle"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Heal"
+        ],
+        [
+            "Damage"
+        ],
+        [
+            "Speed"
+        ],
+        [
+            "Resist"
+        ]
+    ],
+    "parent": "asphodel:combat/the_essence_of_war"
+}

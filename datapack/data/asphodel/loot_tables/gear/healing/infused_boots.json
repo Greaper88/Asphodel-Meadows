@@ -1,0 +1,115 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nl_Quality:1b,CustomModelData:1001,Healer:1b,HideFlags:2,Enchantments:[{}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.max_health",
+                                    "amount": 3,
+                                    "operation": "addition",
+                                    "slot": "feet",
+                                    "name": "MaxHealth"
+                                },
+                                {
+                                    "attribute": "generic.armor",
+                                    "amount": 2,
+                                    "operation": "addition",
+                                    "slot": "feet",
+                                    "name": "Armor"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Infused Boots",
+                                "color": "gold",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "[Gear]",
+                                    "color": "dark_aqua",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "A Powerful pair of boots, infused",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "with magical properties.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "Active Essence: [",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "Healing",
+                                        "color": "yellow",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "]",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "When on feet:",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "+3 Max Health",
+                                    "color": "blue",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "+2 Armor",
+                                    "color": "blue",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

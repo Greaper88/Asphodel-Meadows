@@ -1,6 +1,6 @@
 {
-	"pack": {
-		"pack_format": 6,
-		"description": "Welcome to Asphodel v2.0! Compatible with 1.16+ big thank you for all the helpers over on our discord, thanks for playing!"
-	}
+   "pack": {
+      "pack_format": 8,
+      "description": "-----------------------------\n§3A NEW DIMENSION FOR SPIGOT MINECRAFT 1.16+!§o\n\n§7Welcome to The Asphodel Meadows... \n\n§6Created by §5SirPumpkinstein. §r\n§2Thanks for Playing!\n§8Version 1.11.2 for Spigot by G.Reaper88"
+   }
 }

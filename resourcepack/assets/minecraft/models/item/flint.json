@@ -4,6 +4,6 @@
 		"layer0": "item/flint"
 	},
 	"overrides": [
-		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/item/rune_fragment"}
+		{ "predicate": {"custom_model_data": 1001}, "model": "item/asphodel/capsule_fragment"}
 	]
 }

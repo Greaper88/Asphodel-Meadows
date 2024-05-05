@@ -1,0 +1,56 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Charge it up!",
+            "color": "green"
+        },
+        "description": [
+            {
+                "text": "Craft some ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Alchemic Charges ",
+                "color": "aqua"
+            },
+            {
+                "text": "by following the recipe.",
+                "color": "light_purple",
+                "italic": false
+            }
+        ],
+        "icon": {
+            "item": "minecraft:fire_charge",
+            "nbt": "{CustomModelData:1001}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Charge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Charge:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:fire_charge"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Charge"
+        ]
+    ],
+    "parent": "asphodel:crafting/to_the_skies"
+}

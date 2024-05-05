@@ -49,7 +49,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "asphodel:blocks/rune_chance"
+          "name": "asphodel:blocks/nether_quartz_ore"
         }
       ]
     }

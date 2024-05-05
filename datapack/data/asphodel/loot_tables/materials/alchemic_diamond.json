@@ -9,12 +9,11 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{am_ItemID:15b,CustomModelData:113001}"
+                            "tag": "{Fake:1b,Enchantments:[{}]}"
                         },
                         {
                             "function": "set_name",
-                            "name" : 
-                            {
+                            "name": {
                                 "text": "Alchemic Diamond",
                                 "color": "light_purple",
                                 "italic": false
@@ -22,40 +21,39 @@
                         },
                         {
                             "function": "set_lore",
-                            "lore" : 
-                            [
+                            "lore": [
                                 {
-                                    "text":"[Item]",
-                                    "color":"yellow",
-                                    "italic":false
+                                    "text": "[Item]",
+                                    "color": "yellow",
+                                    "italic": false
                                 },
                                 {
-                                    "text":" "
+                                    "text": " "
                                 },
-                                [    
+                                [
                                     {
-                                        "text":"Well, it does ",
-                                        "color":"gray",
-                                        "italic":false
+                                        "text": "Well, it does ",
+                                        "color": "gray",
+                                        "italic": false
                                     },
                                     {
-                                        "text":"look",
-                                        "color":"gray",
-                                        "italic":true
-                                    } 
+                                        "text": "look",
+                                        "color": "gray",
+                                        "italic": true
+                                    }
                                 ],
                                 {
-                                    "text":"like a diamond...",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": "like a diamond...",
+                                    "color": "gray",
+                                    "italic": false
                                 },
                                 {
-                                    "text":" "
+                                    "text": " "
                                 },
                                 {
-                                    "text":"  ❂ Asphodel Meadows ❂  ",
-                                    "color":"dark_gray",
-                                    "italic":false
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
                                 }
                             ]
                         }

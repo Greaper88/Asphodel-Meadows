@@ -1,0 +1,113 @@
+{
+    "display": {
+        "title": {
+            "text": "Trapped!",
+            "color": "green"
+        },
+        "description": [
+            {
+                "text": "Harness the power of ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Unstable Essence ",
+                "color": "aqua"
+            },
+            {
+                "text": "using your ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Empty Essence Capsules",
+                "color": "dark_aqua"
+            },
+            {
+                "text": ".",
+                "color": "light_purple"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:gold_ingot",
+            "nbt": "{CustomModelData:1003}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Heal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Constitution:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:gold_ingot"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Damage": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Strength:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:gold_ingot"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Speed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Dexterity:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:gold_ingot"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Resist": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Defense:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:gold_ingot"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Heal",
+            "Damage",
+            "Speed",
+            "Resist"
+        ]
+    ],
+    "parent": "asphodel:mining/empty_vessel"
+}

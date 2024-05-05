@@ -1,0 +1,4 @@
+# Drop Crafter # 
+
+data merge entity @s {Item:{id:"minecraft:armor_stand",Count:1b,tag:{CustomModelData:1003,display:{Lore:['{"italic":false,"color":"dark_aqua","text":"[Rare Crafter]"}','{"text":" "}','{"italic":false,"color":"gray","text":"This new machine pulses with a"}','{"italic":false,"color":"gray","text":"magical energy. You wonder what"}','{"italic":false,"color":"gray","text":"great power lies inside the box.."}','{"text":" "}','{"italic":true,"color":"gold","text":"    Place the crafter to start"}','{"italic":true,"color":"gold","text":"    using Asphodel Meadows."}','{"text":" "}','{"italic":false,"color":"dark_gray","text":"  ❂ Asphodel Meadows ❂  "}'],Name:'{"italic":false,"color":"red","text":"Infernal Machine"}'},EntityTag:{Small:1,Invisible:1,Tags:["AM.Machine"]},Machine:1}}}
+

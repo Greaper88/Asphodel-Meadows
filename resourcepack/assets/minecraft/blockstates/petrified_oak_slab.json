@@ -1,8 +1,7 @@
 {
     "variants": {
         "type=bottom": { "model": "block/petrified_oak_slab" },
-        "type=top": { "model": "block/custom_blocks/sunken_onyx_ore" },
-        "type=double,waterlogged=false": { "model": "block/custom_blocks/activated_onyx_ore" },
-        "type=double,waterlogged=true": { "model": "block/custom_blocks/pheonix_onyx_ore" }
-            }
-        }
+        "type=top": { "model": "block/onyx_ore" },
+        "type=double": { "model": "block/onyx_block" }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "display": {
+        "title": {
+            "text": "Empty Vessel",
+            "color": "gold"
+        },
+        "description": [
+            {
+                "text": "Craft an ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Empty Essence Capsule ",
+                "color": "dark_aqua"
+            },
+            {
+                "text": "to capture some ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Unstable Essence",
+                "color": "aqua"
+            },
+            {
+                "text": ".",
+                "color": "light_purple"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:gold_ingot",
+            "nbt": "{CustomModelData:1001}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Empty": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Empty:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:gold_ingot"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Empty"
+        ]
+    ],
+    "parent": "asphodel:mining/fragments_of_a_lost_art"
+}

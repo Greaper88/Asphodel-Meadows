@@ -4,6 +4,6 @@
 		"layer0": "item/written_book"
 	},
 	"overrides": [
-		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/item/compendium"}
+		{ "predicate": {"custom_model_data": 1001}, "model": "item/asphodel/recipe_book"}
 	]
 }

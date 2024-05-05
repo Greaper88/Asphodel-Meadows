@@ -4,6 +4,6 @@
 		"layer0": "item/totem_of_undying"
 	},
 	"overrides": [
-		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/item/totem"}
+		{ "predicate": {"custom_model_data": 1}, "model": "item/asphodel/amulet_of_hoarding"}
 	]
 }

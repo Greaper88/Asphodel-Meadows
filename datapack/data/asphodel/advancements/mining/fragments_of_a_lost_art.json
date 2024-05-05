@@ -1,0 +1,63 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Fragments of a lost art.",
+            "color": "gold"
+        },
+        "description": [
+            {
+                "text": "Craft the ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Mystic Pickaxe ",
+                "color": "dark_green"
+            },
+            {
+                "text": "and start mining for ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Capsule Fragments",
+                "color": "aqua"
+            },
+            {
+                "text": ".",
+                "color": "light_purple"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:diamond_pickaxe",
+            "nbt": "{CustomModelData:1001}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Capsule": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Fragment:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:flint"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Capsule"
+        ]
+    ],
+    "parent": "asphodel:learning_the_craft"
+}

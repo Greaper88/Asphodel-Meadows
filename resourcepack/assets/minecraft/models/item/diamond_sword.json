@@ -4,7 +4,6 @@
 		"layer0": "item/diamond_sword"
 	},
 	"overrides": [
-		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/tools/mystical_sword"},
-		{ "predicate": {"custom_model_data": 113002}, "model": "item/asphodel/tools/alchemic_sword"}
+		{ "predicate": {"custom_model_data": 1001}, "model": "item/asphodel/harvest_sword"}
 	]
 }

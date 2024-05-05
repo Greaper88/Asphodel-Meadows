@@ -1,0 +1,76 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nl_Quality:1b,CustomModelData:1001,LootChance:60b,HideFlags:2,Enchantments:[{}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Harvest Sword",
+                                "color": "dark_green",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "[Tool]",
+                                    "color": "blue",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "This Sword looks",
+                                    "color": "light_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "a little different...",
+                                    "color": "light_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "When in main hand:",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "60% chance to loot",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "unstable essence.",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

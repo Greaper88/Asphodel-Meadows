@@ -1,0 +1,49 @@
+{
+    "display": {
+        "title": {
+            "text": "Infusion!",
+            "color": "green"
+        },
+        "description": [
+            {
+                "text": "Craft a piece of ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Infused Armor",
+                "color": "gold"
+            },
+            {
+                "text": " to increase your ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Ability Modifiers",
+                "color": "dark_aqua"
+            },
+            {
+                "text": ".",
+                "color": "light_purple"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:iron_chestplate",
+            "nbt": "{CustomModelData:1001,Enchantments:[{}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Infused": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "Infused"
+        ]
+    ],
+    "parent": "asphodel:mining/trapped"
+}

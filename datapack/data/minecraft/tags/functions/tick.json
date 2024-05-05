@@ -1,6 +1,6 @@
 {
-	"replace": false,
-	"values": [
-		"asphodel:global_tick"
-	]
+    "replace": false,
+    "values": [
+        "asphodel:global_tick"
+    ]
 }

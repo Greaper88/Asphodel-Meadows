@@ -1,0 +1,86 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1003,Strength:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Essence Capsule",
+                                "color": "light_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "[Item]",
+                                    "color": "yellow",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "A powerful magical vessel.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "Active Essence: [",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "Damage",
+                                        "color": "red",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "]",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "Increases your strength",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "when infused with armor.",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

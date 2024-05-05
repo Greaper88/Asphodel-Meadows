@@ -1,0 +1,71 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Wraith's Bane",
+            "color": "gold"
+        },
+        "description": [
+            {
+                "text": "Collect ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Trapped Souls ",
+                "color": "aqua"
+            },
+            {
+                "text": "by killing ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Shroud Wraiths ",
+                "color": "red"
+            },
+            {
+                "text": "in the ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Asphodel Meadows",
+                "color": "gray"
+            },
+            {
+                "text": ".",
+                "color": "light_purple"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:ghast_tear",
+            "nbt": "{CustomModelData:1001}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Soul": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Soul:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:ghast_tear"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Soul"
+        ]
+    ],
+    "parent": "asphodel:combat/the_collector"
+}

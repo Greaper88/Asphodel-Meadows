@@ -4,8 +4,6 @@
 		"layer0": "item/netherite_pickaxe"
 	},
 	"overrides": [
-		{ "predicate": {"custom_model_data": 113001}, "model": "item/asphodel/tools/activated_pickaxe"},
-		{ "predicate": {"custom_model_data": 113002}, "model": "item/asphodel/tools/phoenix_pickaxe"},
-		{ "predicate": {"custom_model_data": 113003}, "model": "item/asphodel/tools/sunken_pickaxe"}
+		{ "predicate": {"custom_model_data": 1002}, "model": "item/asphodel/onyx_pickaxe"}		
 	]
 }

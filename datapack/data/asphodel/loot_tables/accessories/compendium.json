@@ -1,0 +1,81 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,HideFlags:4,CustomModelData:1002,Hoarding:1b,Enchantments:[{}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Amulet of Hoarding",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "[Rare Accessory]",
+                                    "color": "aqua",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "This Amulet is pulsing with",
+                                    "color": "light_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "an eerie green glow...",
+                                    "color": "light_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "When on Hotbar:",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "All players will keep inventory",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "on death. This Amulet will",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "break When you die.",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

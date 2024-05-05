@@ -1,0 +1,63 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:fire_charge",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Charge:1b,CustomModelData:1001,Enchantments:[{}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Alchemic Charge",
+                                "color": "light_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "[Item]",
+                                    "color": "yellow",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "Colourful sparks dart around",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "The inside. This magic is not",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "from the world we know...",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

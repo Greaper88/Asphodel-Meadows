@@ -1,0 +1,55 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "To the skies!",
+            "color": "green"
+        },
+        "description": [
+            {
+                "text": "Craft the ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Cloud in a bottle ",
+                "color": "yellow"
+            },
+            {
+                "text": "Item accesory.",
+                "color": "light_purple"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:1001}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Cloud": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Cloud:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:carrot_on_a_stick"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Cloud"
+        ]
+    ],
+    "parent": "asphodel:crafting/looks_good_enough"
+}

@@ -1,0 +1,63 @@
+{
+    "display": {
+        "title": {
+            "text": "The Extra Mile",
+            "color": "green"
+        },
+        "description": [
+            {
+                "text": "Congratulations! You've reached the Milestone set by ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Eatyourhashs ",
+                "color": "yellow"
+            },
+            {
+                "text": "and ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Chazym",
+                "color": "yellow"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:nether_star",
+            "nbt": "{CustomModelData:1001}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "Fighter": {
+            "trigger": "minecraft:impossible"
+        },
+        "Healer": {
+            "trigger": "minecraft:impossible"
+        },
+        "Ranger": {
+            "trigger": "minecraft:impossible"
+        },
+        "Paladin": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "Fighter"
+        ],
+        [
+            "Healer"
+        ],
+        [
+            "Ranger"
+        ],
+        [
+            "Paladin"
+        ]
+    ],
+    "parent": "asphodel:root"
+}

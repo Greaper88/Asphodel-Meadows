@@ -1,5 +1,0 @@
-execute at @s run summon armor_stand ~ ~-2 ~ {Small:1b,Invisible:1b,NoGravity:0b,Silent:1b,Invulnerable:1b,Tags:["AM.aoe"],Passengers:[{id:"minecraft:area_effect_cloud",Radius:10f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:240,Color:9592063,Potion:"minecraft:harming",Effects:[{Id:2b,Amplifier:0b,Duration:200,ShowParticles:1b},{Id:20b,Amplifier:0b,Duration:20,ShowParticles:1b}]}]}
-execute at @s run particle minecraft:end_rod ~ ~ ~ 3 2 3 1 100 
-execute at @s as @a[distance=..128] at @s run playsound minecraft:entity.zombie_villager.converted voice @a
-execute at @s at @a[distance=..128] run summon armor_stand ~ ~10 ~ {Small:1b,Invisible:1b,NoGravity:0b,Silent:1b,Invulnerable:1b,Tags:["AM.aoe"],Passengers:[{id:"minecraft:area_effect_cloud",Radius:10f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:240,Color:9592063,Potion:"minecraft:harming",Effects:[{Id:2b,Amplifier:0b,Duration:200,ShowParticles:1b},{Id:20b,Amplifier:0b,Duration:20,ShowParticles:1b}]}]}
-scoreboard players set @e[tag=AM.Boss] am.Cooldown 80

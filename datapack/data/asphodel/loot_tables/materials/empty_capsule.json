@@ -1,0 +1,86 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1001,Empty:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Essence Capsule",
+                                "color": "light_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "[Item]",
+                                    "color": "yellow",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "A powerful magical vessel.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "Active Essence: [",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "Empty",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "]",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "Fill with Unstable Essence",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "to activate it's power.",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

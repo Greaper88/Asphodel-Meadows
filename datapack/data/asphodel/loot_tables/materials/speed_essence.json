@@ -9,46 +9,44 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:113002,am_ItemID:12b}"
+                            "tag": "{CustomModelData:1003,Speed:1b}"
                         },
                         {
                             "function": "set_name",
-                            "name" : 
-                            {
-                                "text": "Fleeting Essence",
+                            "name": {
+                                "text": "Unstable Essence",
                                 "color": "light_purple",
                                 "italic": false
                             }
                         },
                         {
                             "function": "set_lore",
-                            "lore" : 
-                            [
+                            "lore": [
                                 {
-                                    "text":"[Item]",
-                                    "color":"yellow",
-                                    "italic":false
+                                    "text": "[Item]",
+                                    "color": "yellow",
+                                    "italic": false
                                 },
                                 {
-                                    "text":" "
+                                    "text": " "
                                 },
                                 {
-                                    "text":"It feels Like a gust of wind",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": "Like a gust of wind,",
+                                    "color": "gray",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"that howls past your ears.",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": "it howls past your ears.",
+                                    "color": "gray",
+                                    "italic": false
                                 },
                                 {
-                                    "text":" "
+                                    "text": " "
                                 },
                                 {
-                                    "text":"  ❂ Asphodel Meadows ❂  ",
-                                    "color":"dark_gray",
-                                    "italic":false
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
                                 }
                             ]
                         }

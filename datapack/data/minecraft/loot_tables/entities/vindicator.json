@@ -10,16 +10,16 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0.0,
-                "max": 1.0,
+                "min": 0,
+                "max": 1,
                 "type": "minecraft:uniform"
               }
             },
             {
               "function": "minecraft:looting_enchant",
               "count": {
-                "min": 0.0,
-                "max": 1.0
+                "min": 0,
+                "max": 1
               }
             }
           ],
@@ -29,6 +29,20 @@
       "conditions": [
         {
           "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "asphodel:materials/crafter_paper"
+        },
+        {
+          "type": "empty",
+          "weight": 1
         }
       ]
     }

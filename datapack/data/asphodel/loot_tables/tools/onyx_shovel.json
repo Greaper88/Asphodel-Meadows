@@ -1,0 +1,89 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_shovel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nl_Quality:1b,CustomModelData:1001,DropChance:80b,Onyx:1b,HideFlags:3,Enchantments:[{lvl:5s,id:\"minecraft:unbreaking\"},{lvl:10s,id:\"minecraft:efficiency\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Onyx Shovel",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "[Rare Tool]",
+                                    "color": "aqua",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "A dark onyx shovel",
+                                    "color": "light_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "with a fiery hilt.",
+                                    "color": "light_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "Efficiency X",
+                                    "color": "aqua",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Unbreaking V",
+                                    "color": "aqua",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "When in Mainhand:",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Hold \"Sneak\" to attract",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "items within 10 blocks.",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

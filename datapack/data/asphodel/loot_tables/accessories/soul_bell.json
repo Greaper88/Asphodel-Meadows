@@ -9,12 +9,11 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:113003,am_ItemID:114b,HideFlags:2}"
+                            "tag": "{Unbreakable:1,HideFlags:4,CustomModelData:1004,Bell:1b,Enchantments:[{}]}"
                         },
                         {
                             "function": "set_name",
-                            "name" : 
-                            {
+                            "name": {
                                 "text": "Soul Bell",
                                 "color": "yellow",
                                 "italic": false
@@ -22,47 +21,67 @@
                         },
                         {
                             "function": "set_lore",
-                            "lore" : 
-                            [
+                            "lore": [
                                 {
-                                    "text":"Artifact",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": "[Rare Accessory]",
+                                    "color": "aqua",
+                                    "italic": false
                                 },
                                 {
-                                    "text":" "
+                                    "text": " "
                                 },
                                 {
-                                    "text":"When in Mainhand:",
-                                    "color":"gray",
-                                    "italic":false
-                                },
-                                [{
-                                    "text":"Press ",
-                                    "color":"gold",
-                                    "italic":false
+                                    "text": "An incantation inscibed on the",
+                                    "color": "light_purple",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"SNEAK",
-                                    "color":"gold",
-                                    "italic":true
-                                },{
-                                    "text":" release trapped souls.",
-                                    "color":"gold",
-                                    "italic":false
-                                }],
-                                {
-                                    "text":"Provides strength and regen effects.",
-                                    "color":"gold",
-                                    "italic":false
+                                    "text": "side explains how to free souls.",
+                                    "color": "light_purple",
+                                    "italic": false
                                 },
                                 {
-                                    "text":" "
+                                    "text": " "
                                 },
                                 {
-                                    "text":"  ❂ Asphodel Meadows ❂  ",
-                                    "color":"dark_gray",
-                                    "italic":false
+                                    "text": "When in Mainhand:",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Hold \"Sneak\" to release trapped",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "souls. Giving a strength and",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                [
+                                    {
+                                        "text": "regen effect for ",
+                                        "color": "gold",
+                                        "italic": true
+                                    },
+                                    {
+                                        "text": "10",
+                                        "color": "red",
+                                        "italic": true
+                                    },
+                                    {
+                                        "text": " seconds.",
+                                        "color": "gold",
+                                        "italic": true
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
                                 }
                             ]
                         }

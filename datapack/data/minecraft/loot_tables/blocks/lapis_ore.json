@@ -32,8 +32,8 @@
                 {
                   "function": "minecraft:set_count",
                   "count": {
-                    "min": 4.0,
-                    "max": 9.0,
+                    "min": 4,
+                    "max": 9,
                     "type": "minecraft:uniform"
                   }
                 },
@@ -57,7 +57,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "asphodel:blocks/rune_chance"
+          "name": "asphodel:blocks/lapis_ore"
         }
       ]
     }

@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/armor_stand"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1001}, "model": "item/blocks/onyx_ore"},
+		{ "predicate": {"custom_model_data": 1002}, "model": "item/blocks/onyx_block"},
+		{ "predicate": {"custom_model_data": 1003}, "model": "item/blocks/machine"},
+		{ "predicate": {"custom_model_data": 1004}, "model": "item/asphodel/vase_item"}
+	]
+}

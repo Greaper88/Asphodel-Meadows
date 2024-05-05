@@ -9,46 +9,49 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:113001,am_ItemID:120b}"
+                            "tag": "{Fuel:1b,CustomModelData:1001,Enchantments:[{}]}"
                         },
                         {
                             "function": "set_name",
-                            "name" : 
-                            {
+                            "name": {
                                 "text": "Activated Onyx",
-                                "color": "dark_purple",
+                                "color": "light_purple",
                                 "italic": false
                             }
                         },
                         {
                             "function": "set_lore",
-                            "lore" : 
-                            [
+                            "lore": [
                                 {
-                                    "text":"[Item]",
-                                    "color":"yellow",
-                                    "italic":false
+                                    "text": "[Item]",
+                                    "color": "yellow",
+                                    "italic": false
                                 },
                                 {
-                                    "text":" "
+                                    "text": " "
                                 },
                                 {
-                                    "text":"A powerful fragment, can be used",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": "Red hot and energized,",
+                                    "color": "gray",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"as fuel of crafted into ingots",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": "also looks like this can",
+                                    "color": "gray",
+                                    "italic": false
                                 },
                                 {
-                                    "text":" "
+                                    "text": "be used as fuel..",
+                                    "color": "gray",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"  ❂ Asphodel Meadows ❂  ",
-                                    "color":"dark_gray",
-                                    "italic":false
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
                                 }
                             ]
                         }

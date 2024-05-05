@@ -1,0 +1,115 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nl_Quality:1b,CustomModelData:1002,Fighter:1b,HideFlags:2,Enchantments:[{}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.attack_damage",
+                                    "amount": 0.4,
+                                    "operation": "multiply_base",
+                                    "slot": "chest",
+                                    "name": "AttackDamage"
+                                },
+                                {
+                                    "attribute": "generic.armor",
+                                    "amount": 6,
+                                    "operation": "addition",
+                                    "slot": "chest",
+                                    "name": "Armor"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Infused Chestplate",
+                                "color": "gold",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "[Gear]",
+                                    "color": "dark_aqua",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "A Powerful Chestplate, infused",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "with magical properties.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "Active Essence: [",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "Damage",
+                                        "color": "red",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "]",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "When on body:",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "+40% Attack Damage",
+                                    "color": "blue",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "+6 Armor",
+                                    "color": "blue",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

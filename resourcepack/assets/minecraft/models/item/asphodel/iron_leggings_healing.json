@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/asphodel/iron_leggings_healing"
+	}
+}

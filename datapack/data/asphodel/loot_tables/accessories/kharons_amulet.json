@@ -9,12 +9,11 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:113005,am_ItemID:117b,HideFlags:2}"
+                            "tag": "{Unbreakable:1,HideFlags:4,CustomModelData:1005,Amulet:1b,Enchantments:[{}]}"
                         },
                         {
                             "function": "set_name",
-                            "name" : 
-                            {
+                            "name": {
                                 "text": "Kharon's Amulet",
                                 "color": "yellow",
                                 "italic": false
@@ -22,38 +21,55 @@
                         },
                         {
                             "function": "set_lore",
-                            "lore" : 
-                            [
+                            "lore": [
                                 {
-                                    "text":"Artifact",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": "[Rare Accessory]",
+                                    "color": "aqua",
+                                    "italic": false
                                 },
                                 {
-                                    "text":" "
+                                    "text": " "
                                 },
                                 {
-                                    "text":"When in Inventory:",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": "This Amulet is pulsing with",
+                                    "color": "light_purple",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"Use this Artifact to safely",
-                                    "color":"gold",
-                                    "italic":false
+                                    "text": "an eerie green glow...",
+                                    "color": "light_purple",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"cross the oceans of Asphodel.",
-                                    "color":"gold",
-                                    "italic":false
+                                    "text": " "
                                 },
                                 {
-                                    "text":" "
+                                    "text": "When in Inventory:",
+                                    "color": "gray",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"  ❂ Asphodel Meadows ❂  ",
-                                    "color":"dark_gray",
-                                    "italic":false
+                                    "text": "You will no longer take",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "damage when traversing through",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "asphodel's lakes and oceans.",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
                                 }
                             ]
                         }

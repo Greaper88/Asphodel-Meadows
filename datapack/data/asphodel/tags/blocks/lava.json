@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:pink_stained_glass",
+    "minecraft:purple_stained_glass",
+    "minecraft:magma_block"
+  ]
+}

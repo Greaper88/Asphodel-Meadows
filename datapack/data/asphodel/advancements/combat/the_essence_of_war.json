@@ -1,0 +1,113 @@
+{
+    "display": {
+        "title": {
+            "text": "The Essence of War",
+            "color": "gold"
+        },
+        "description": [
+            {
+                "text": "Harvest some ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Unstable Essence ",
+                "color": "aqua"
+            },
+            {
+                "text": "with your ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Harvest Sword",
+                "color": "dark_green"
+            },
+            {
+                "text": ".",
+                "color": "light_purple"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:diamond_sword",
+            "nbt": "{CustomModelData:1001}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Heal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Healing:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:yellow_dye"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Damage": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Damage:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:red_dye"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Speed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Speed:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:lime_dye"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Resist": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Resist:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:gray_dye"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Heal",
+            "Damage",
+            "Speed",
+            "Resist"
+        ]
+    ],
+    "parent": "asphodel:learning_the_craft"
+}

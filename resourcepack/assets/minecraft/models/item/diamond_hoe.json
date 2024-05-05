@@ -1,0 +1,15 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_hoe"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1001}, "model": "item/portal1"},
+		{ "predicate": {"custom_model_data": 1002}, "model": "item/portal2"},
+		{ "predicate": {"custom_model_data": 1003}, "model": "item/shroud_head"},
+		{ "predicate": {"custom_model_data": 1004}, "model": "item/shroud_body"},
+		{ "predicate": {"custom_model_data": 1005}, "model": "item/portal"},
+		{ "predicate": {"custom_model_data": 1006}, "model": "item/asphodel/vase_block"}
+
+	]
+}

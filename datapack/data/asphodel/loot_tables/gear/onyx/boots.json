@@ -1,0 +1,129 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nl_Quality:1b,Onyx:1b,HideFlags:35,display:{color:8988108},Enchantments:[{id:\"minecraft:thorns\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:2s}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.max_health",
+                                    "amount": 3,
+                                    "operation": "addition",
+                                    "slot": "feet",
+                                    "name": "MaxHealth"
+                                },
+                                {
+                                    "attribute": "generic.armor",
+                                    "amount": 3,
+                                    "operation": "addition",
+                                    "slot": "legs",
+                                    "name": "Armor"
+                                },
+                                {
+                                    "attribute": "generic.armor_toughness",
+                                    "amount": 2,
+                                    "operation": "addition",
+                                    "slot": "feet",
+                                    "name": "Toughness"
+                                },
+                                {
+                                    "attribute": "generic.attack_damage",
+                                    "amount": 0.15,
+                                    "operation": "multiply_base",
+                                    "slot": "feet",
+                                    "name": "AttackDamage"
+                                },
+                                {
+                                    "attribute": "generic.movement_speed",
+                                    "amount": 0.15,
+                                    "operation": "multiply_base",
+                                    "slot": "feet",
+                                    "name": "Speed"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Onyx Boots",
+                                "color": "red",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "[Rare Gear]",
+                                    "color": "light_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "This armor is surrounded",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "in a dark magical glow.",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "Thorns II",
+                                    "color": "aqua",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "When on feet:",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "+3 Max Health    +15% Speed",
+                                    "color": "blue",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "+15% Damage      +3 Armor",
+                                    "color": "blue",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "+2 Armor Toughness",
+                                    "color": "blue",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

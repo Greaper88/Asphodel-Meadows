@@ -9,46 +9,44 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:113001,am_ItemID:11b}"
+                            "tag": "{CustomModelData:1001,Healing:1b}"
                         },
                         {
                             "function": "set_name",
-                            "name" : 
-                            {
-                                "text": "Radiant Essence",
+                            "name": {
+                                "text": "Unstable Essence",
                                 "color": "light_purple",
                                 "italic": false
                             }
                         },
                         {
                             "function": "set_lore",
-                            "lore" : 
-                            [
+                            "lore": [
                                 {
-                                    "text":"[Item]",
-                                    "color":"yellow",
-                                    "italic":false
+                                    "text": "[Item]",
+                                    "color": "yellow",
+                                    "italic": false
                                 },
                                 {
-                                    "text":" "
+                                    "text": " "
                                 },
                                 {
-                                    "text":"Holding this makes you feel",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": "Holding this makes",
+                                    "color": "gray",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"energised and full of life.",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": "you feel energised.",
+                                    "color": "gray",
+                                    "italic": false
                                 },
                                 {
-                                    "text":" "
+                                    "text": " "
                                 },
                                 {
-                                    "text":"  ❂ Asphodel Meadows ❂  ",
-                                    "color":"dark_gray",
-                                    "italic":false
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
                                 }
                             ]
                         }

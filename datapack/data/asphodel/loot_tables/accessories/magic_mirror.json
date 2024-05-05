@@ -9,12 +9,11 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:113006,am_ItemID:116b,HideFlags:2,am_Primed:0b,am_Charges:10b,am_MirrorX:0b,am_MirrorY:0b,am_MirrorZ:0b,am_Dimension:none}"
+                            "tag": "{CustomModelData:1003,Unbreakable:1,HideFlags:4,Enchantments:[{}],Mirror:1b,Uses:10b,Active:0b}"
                         },
                         {
                             "function": "set_name",
-                            "name" : 
-                            {
+                            "name": {
                                 "text": "Magic Mirror",
                                 "color": "yellow",
                                 "italic": false
@@ -22,74 +21,78 @@
                         },
                         {
                             "function": "set_lore",
-                            "lore" : 
-                            [
+                            "lore": [
                                 {
-                                    "text":"Artifact",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": "[Rare Accessory]",
+                                    "color": "aqua",
+                                    "italic": false
                                 },
                                 {
-                                    "text":" "
-                                },
-                                [{
-                                    "text":"Coordinates: [",
-                                    "color":"dark_aqua",
-                                    "italic":false
+                                    "text": " "
                                 },
                                 {
-                                    "text":"Not Primed",
-                                    "color":"dark_gray",
-                                    "italic":false
+                                    "text": "When you look into this mirror,",
+                                    "color": "light_purple",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"]",
-                                    "color":"dark_aqua",
-                                    "italic":false
-                                }],
-                                {
-                                    "text":" "
+                                    "text": "a shadowy figure stares back...",
+                                    "color": "light_purple",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"When in Mainhand:",
-                                    "color":"gray",
-                                    "italic":false
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "Coordinates: [",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "Inactive",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "]",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": " "
                                 },
                                 {
-                                    "text":"Press Sneak to Prime Coordinates.",
-                                    "color":"gold",
-                                    "italic":true
+                                    "text": "When in Offhand:",
+                                    "color": "gray",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"Right Click to Teleport",
-                                    "color":"gold",
-                                    "italic":true
+                                    "text": "Hold 'Sneak' to prime coordinates.",
+                                    "color": "gold",
+                                    "italic": true
                                 },
                                 {
-                                    "text":"to Primed Coordinates.",
-                                    "color":"gold",
-                                    "italic":true
+                                    "text": "Once primed, sneak again to teleport.",
+                                    "color": "gold",
+                                    "italic": true
                                 },
                                 {
-                                    "text":" "
-                                },
-                                [{
-                                    "text":"Charges Left: ",
-                                    "color":"white",
-                                    "italic":false
+                                    "text": " "
                                 },
                                 {
-                                    "text":"10",
-                                    "color":"light_purple",
-                                    "italic":false
-                                }],
-                                {
-                                    "text":" "
+                                    "text": "Durability: 10/10",
+                                    "color": "gray",
+                                    "italic": false
                                 },
                                 {
-                                    "text":"  ❂ Asphodel Meadows ❂  ",
-                                    "color":"dark_gray",
-                                    "italic":false
+                                    "text": " "
+                                },
+                                {
+                                    "text": "  ❂ Asphodel Meadows ❂  ",
+                                    "color": "dark_gray",
+                                    "italic": false
                                 }
                             ]
                         }

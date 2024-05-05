@@ -1,0 +1,2 @@
+execute at @s if block ~ ~-0.1 ~ #asphodel:cloudspace run effect give @s minecraft:slow_falling 1 0 true
+execute at @s if block ~ ~-0.1 ~ #asphodel:cloudspace run particle minecraft:cloud ~ ~-1 ~ 0.5 0 0.5 0 10

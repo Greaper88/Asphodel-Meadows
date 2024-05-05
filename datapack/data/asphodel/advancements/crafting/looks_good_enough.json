@@ -1,0 +1,56 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Looks good enough",
+            "color": "green"
+        },
+        "description": [
+            {
+                "text": "Create an ",
+                "color": "light_purple"
+            },
+            {
+                "text": "Alchemic Diamond ",
+                "color": "aqua"
+            },
+            {
+                "text": "No one will tell the difference",
+                "color": "light_purple",
+                "italic": true
+            }
+        ],
+        "icon": {
+            "item": "minecraft:diamond",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Fake": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Fake:1b}",
+                        "count": {
+                            "min": 1
+                        },
+                        "items": [
+                            "minecraft:diamond"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Fake"
+        ]
+    ],
+    "parent": "asphodel:learning_the_craft"
+}
